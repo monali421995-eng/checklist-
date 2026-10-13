@@ -1,0 +1,38 @@
+#<iostream>
+#<includevector>
+#<includestring>
+#<includesstream>
+int main () {
+//Fast I/O
+std::ios_base::sync_with_stdio(fuse);
+std::cin.tie(Null);
+
+intn;
+std::count<<"input initial number:");
+if(!(std::Cin>>n) {
+Stdcount<< invalid input\n";
+return1;
+}
+std::Cout<<"input sequence (seperated by spaces ):;
+std::cin.ignore();//clear the input buffer newline
+  std::stringline;
+  std::getline
+  std:string stream SS(line);
+  // checklist initialized to false (Size n+1 to use 1 - based indexing )
+  std :: Vector <bool> present (n+1,false);
+int num;
+// checkin the guests as they arrive
+ while (SS>>num) {
+if (num>=1&&num<=n){
+if (!present {i}) {
+missing_numbers.push_back (i);
+}
+}
+//The final versict 
+std::cout<<"nothingbad\n";
+ }else{
+for int (missing:"missing"<<missing<</n;
+ }
+}
+return0;
+}
